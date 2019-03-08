@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/profile_pic"/>
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email ID"
+                    android:id="@+id/email"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#FF0000"
+                    android:layout_marginLeft="5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile No"
+                android:id="@+id/mno"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#0000FF"
+                android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.9"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:id="@+id/gender"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#054"
+                    android:layout_marginLeft="5dp"/>
+
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/ic_message_black_24dp"
+                    android:id="@+id/notify"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
